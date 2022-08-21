@@ -1,9 +1,6 @@
 import Logo1 from "./assets/logo1.png";
-import Mcc from "./assets/mcc.png";
-
 import Ycc from "./assets/ycc.png";
 import Sub1 from "./assets/sub1.png";
-import Sub2 from "./assets/sub2.png";
 import Sub4 from "./assets/sub4.png";
 import Cart from "./assets/cart.png";
 import Hd1 from "./assets/hd1.png";
