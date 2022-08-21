@@ -23,36 +23,36 @@ function App() {
   return (
     <div className="">
       <nav className="flex justify-between items-center py-14 px-24">
-        <a href="#" className="">
+        <a href="/" className="">
           <img src={Logo1} alt="logo" />
         </a>
         <div className="flex gap-14 items-center">
           <a
-            href="#"
+            href="/"
             className="text-gray-500 font-medium hover:text-orange-500"
           >
             Product
           </a>
           <a
-            href="#"
+            href="/"
             className="text-gray-500 font-medium hover:text-orange-500"
           >
             About
           </a>
           <a
-            href="#"
+            href="/"
             className="text-gray-500 font-medium hover:text-orange-500"
           >
             Blog
           </a>
           <a
-            href="#"
+            href="/"
             className="text-gray-500 font-medium hover:text-orange-500"
           >
             Reviews
           </a>
           <a
-            href="#"
+            href="/"
             className="text-gray-500 font-medium hover:text-orange-500"
           >
             <img src={Cart} alt="logo" />
@@ -78,13 +78,13 @@ function App() {
           </div>
           <div className="flex gap-4 items-center my-4">
             <a
-              href="#"
+              href="/"
               className="text-lg font-semibold py-2 px-8 rounded-full text-white bg-orange-700 text-center"
               style={{ backgroundColor: "#ee673d" }}
             >
               Shop Now
             </a>
-            <a href="#" className="text-lg font-semibold">
+            <a href="/" className="text-lg font-semibold">
               How to use
             </a>
           </div>
@@ -134,7 +134,7 @@ function App() {
             ingredient. Fear of God Essensials
           </p>
           <a
-            href="#"
+            href="/"
             className="link-outline rounded-full px-8 py-2 font-semibold text-sm my-4"
           >
             Browse All Products
@@ -280,7 +280,6 @@ function App() {
       </section>
       <section className="flex gap-2 px-24">
         <div>
-          <img src="" />
           <p>Glow.</p>
           <p>
             Keep up with the new Releases, Beauty Tips and What Emma's been Up
