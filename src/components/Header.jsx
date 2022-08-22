@@ -6,8 +6,8 @@ import ScrollSlideUp from "../Transitions/Scroll/SlideUp";
 
 export default function Header() {
   return (
-    <ScrollSlideUp>
-      <header className="flex justify-between gap-0 items-center px-24">
+    <header className="flex justify-between gap-0 items-center px-24">
+      <ScrollSlideUp>
         <div>
           <p className="text-8xl">Let your skin</p>
           <div className="flex items-center gap-3">
@@ -37,8 +37,8 @@ export default function Header() {
             </a>
           </div>
         </div>
-        <img src={Hd2} alt="logo" />
-      </header>
-    </ScrollSlideUp>
+      </ScrollSlideUp>
+      <img src={Hd2} alt="logo" />
+    </header>
   );
 }

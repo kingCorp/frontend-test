@@ -5,8 +5,8 @@ import ScrollSlideUp from "../Transitions/Scroll/SlideUp";
 export default function Faq() {
   return (
     <section className="px-24 flex justify-between items-center py-8">
-      <div className="flex justify-center">
-        <img src={Sub1} alt="logo" className="" width="60%" />
+      <div className="flex ">
+        <img src={Sub1} alt="logo" className="" width="80%" />
       </div>
       <ScrollSlideUp>
         <div>

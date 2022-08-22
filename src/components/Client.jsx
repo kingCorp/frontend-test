@@ -35,10 +35,18 @@ export default function Client() {
       <div classNmae="h-44"></div>
       <div className="flex flex-col justify-center w-full">
         <div className="absolute -bottom-28 gap-8 flex justify-between items-center z-30">
-          <img src={F1} alt="logo1" className="" width="20%" />
-          <img src={F2} alt="logo1" className="" width="20%" />
-          <img src={F3} alt="logo1" className="" width="20%" />
-          <img src={F4} alt="logo1" className="" width="20%" />
+          <ScrollSlideLeft>
+            <img src={F1} alt="logo1" className="" width="90%" />
+          </ScrollSlideLeft>
+          <ScrollSlideLeft>
+            <img src={F2} alt="logo1" className="" width="90%" />
+          </ScrollSlideLeft>
+          <ScrollSlideLeft>
+            <img src={F3} alt="logo1" className="" width="90%" />
+          </ScrollSlideLeft>
+          <ScrollSlideLeft>
+            <img src={F4} alt="logo1" className="" width="90%" />
+          </ScrollSlideLeft>
         </div>
       </div>
     </section>
